@@ -1,0 +1,12 @@
+<?php
+	$server = "localhost";
+	$server_username = "id9094513_mursyid";
+	$server_password = "99kali03";
+	$database_name =  "id9094513_db_api_transaksi";
+	$conn = new mysqli(
+		$server, 
+		$server_username, 
+		$server_password, 
+		$database_name
+	);
+?>
